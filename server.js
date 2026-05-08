@@ -52,5 +52,5 @@ app.get('/pendaftar', async (req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log(`Server Pendaftaran berjalan di http://localhost:${PORT}`);
+    console.log(`Server berjalan di http://localhost:${PORT}`);
 });
