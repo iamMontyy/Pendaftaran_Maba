@@ -5,7 +5,7 @@ const PORT = 3000;
 app.use(express.json());
 
 mongoose.connect('mongodb://localhost:27017/kampus_db')
-    .then(() => console.log('Terhubung ke database kampus!'))
+    .then(() => console.log('Terhubung ke database!'))
     .catch((err) => console.log('Gagal terhubung !:', err));
     const prodiSchema = new mongoose.Schema({
     nama_prodi: String,
